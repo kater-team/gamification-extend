@@ -5,13 +5,14 @@
 A [Flarum](http://flarum.org) extension. Kater 基于 fof/gamification 增加自定义拓展
 
 ### 需求
-    - Post
-        - [ ] 显示楼层
-        - [x] 中文数位记法
-    - 拓展
-        - [ ] 顶踩显示
-        - [ ] 点击数字显示名单
-        - [ ] 用户不会收到踩通知（通过设置） 
+
+- Post
+    - [x] 显示楼层
+    - [ ] 中文数位记法
+- 拓展
+    - [x] 顶踩显示
+    - [x] 点击数字显示名单
+    - [x] 用户不会收到踩通知（通过设置） 
 
 ### Installation
 
