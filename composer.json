@@ -1,0 +1,38 @@
+{
+  "name": "kater/gamification-extend",
+  "description": "Kater 基于 fof/gamification 增加自定义拓展",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.4",
+    "fof/gamification": "^1.4"
+  },
+  "authors": [
+    {
+      "name": "HHY",
+      "email": "1016823618@qq.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kater\\GamificationExtend\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "K Gamification",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
