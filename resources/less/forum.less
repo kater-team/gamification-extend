@@ -1,6 +1,28 @@
-.Post-header{
-    .item-louceng{
+.Post-header {
+    .item-louceng {
         display: inline-block;
         float: right;
     }
+}
+
+.Post-actions {
+    opacity: 1 !important;
+
+    .item-votes {
+        position: absolute;
+        left: 0;
+    }
+}
+
+.item-votes .CommentPost-votes .Post-vote--active {
+    color:var(--primary-color)
+}
+
+.CommentPost-votes .Post-vote:hover {
+    color: var(--primary-color)
+}
+
+
+.CommentPost-votes .Post-vote {
+    color: var(--button-color);
 }
