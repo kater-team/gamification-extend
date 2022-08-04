@@ -15,11 +15,13 @@ import extendPostHeader from "./extendPostHeader"
 
 
 app.initializers.add('kater/gamificationextend', () => {
-  console.log('[kater/gamificationextend] Hello, forum!');
-
   Post.prototype.upvotes_sum = Model.attribute('upvotes_sum');
   Post.prototype.downvotes_sum = Model.attribute('downvotes_sum');
+  
+  /** 重写 Vote部分 */
   extendPostVoteButtons()
+  
+  /** 新增楼层显示 */
   extendPostHeader()
 }, -10);
 
