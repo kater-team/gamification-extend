@@ -13,8 +13,6 @@ namespace Kater\GamificationExtend;
 
 use Flarum\Extend;
 use Flarum\Api\Serializer;
-use Flarum\Post\Post;
-use Flarum\User\User;
 
 
 return [
