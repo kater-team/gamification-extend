@@ -1,3 +1,6 @@
 kater-gamificationextend:
   forum:
-    louceng: 樓
+    louceng: Num
+    votes:
+      up: Up
+      down: Down
