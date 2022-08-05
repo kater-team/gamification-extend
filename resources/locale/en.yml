@@ -4,3 +4,9 @@ kater-gamificationextend:
     votes:
       up: Up
       down: Down
+
+fof-gamification:
+  forum:
+    user:
+      card:
+        points: ": {count}"

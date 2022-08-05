@@ -11,3 +11,6 @@ fof-gamification:
     notification:
       prefrences:
         vote: 你的文章有人点赞时
+  user:
+      card:
+        points: ": {count}"
