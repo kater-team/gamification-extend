@@ -4,3 +4,9 @@ kater-gamificationextend:
     votes:
       up: 推
       down: 嘘
+
+fof-gamification:
+  forum:
+    notification:
+      prefrences:
+        vote: 你的文章有人按推時

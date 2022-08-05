@@ -4,3 +4,10 @@ kater-gamificationextend:
     votes:
       up: 顶
       down: 踩
+
+
+fof-gamification:
+  forum:
+    notification:
+      prefrences:
+        vote: 你的文章有人点赞时
