@@ -7,6 +7,7 @@ kater-gamificationextend:
 
 fof-gamification:
   forum:
+    votes: 最多推
     notification:
       prefrences:
         vote: 你的文章有人按推時

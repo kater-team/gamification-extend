@@ -8,6 +8,7 @@ kater-gamificationextend:
 
 fof-gamification:
   forum:
+    votes: 赞同数
     notification:
       prefrences:
         vote: 你的文章有人点赞时
