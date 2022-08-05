@@ -23,6 +23,9 @@ app.initializers.add('kater/gamificationextend', () => {
   
   /** 新增楼层显示 */
   extendPostHeader()
+
+  /** 修改 UserCard Vote 显示  */
+  changeUserCardVote()
 }, -10);
 
 
