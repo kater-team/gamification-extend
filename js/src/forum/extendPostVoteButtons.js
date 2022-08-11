@@ -68,14 +68,7 @@ export default function () {
         }
 
         {!upVotesOnly &&
-          <label
-            className="Post-points"
-            onclick={() => {
-              if(parseInt(post.downvotes_sum()) >5 ) {
-                app.modal.show(VotesModal, { post, showTypes: ['downvotes'] })
-              }
-            }}
-          >
+          <label className="Post-points">
             {parseInt(post.downvotes_sum()) < 6 ? "-" : post.downvotes_sum()}
           </label>
         }
