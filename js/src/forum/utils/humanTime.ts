@@ -16,11 +16,7 @@ dayjs.locale({
         L: 'YYYY/MM/DD',
         LL: 'YYYY年M月D日',
         LLL: 'YYYY年M月D日 HH:mm',
-        LLLL: 'YYYY年M月D日dddd HH:mm',
-        l: 'YYYY/M/D',
-        ll: 'YYYY年M月D日',
-        lll: 'YYYY年M月D日 HH:mm',
-        llll: 'YYYY年M月D日dddd HH:mm'
+        LLLL: 'YYYY年M月D日dddd HH:mm:ss',
     },
     relativeTime: {
         future: '%s內',
@@ -72,7 +68,7 @@ export default function humanTime(time: dayjs.ConfigType): string {
 
     if (diff < -30 * day) {
         // ago = d.format('MMM D日');
-        ago = d.format('YYYY年M月D日  HH:mm')
+        ago = d.format('YYYY年M月D日  HH:mm:ss')
     } else {
         ago = d.fromNow();
     }
